@@ -132,7 +132,7 @@ function LocationList(props) {
             ))}
           </div>
         ) : (
-          <h4 className="text-center mt-5">No locations to show!</h4>
+          <h4 className="text-center mt-3 mb-5">You have no locations to show!</h4>
         )}
     </div>
   );

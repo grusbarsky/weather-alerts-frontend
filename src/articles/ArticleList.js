@@ -99,7 +99,7 @@ function ArticleList(props) {
             ))}
           </div>
         ) : (
-          <h4 className="text-center mt-5">Sorry, no results match your search!</h4>
+          <h4 className="text-center my-5">Sorry, no results match your search!</h4>
         )}
     </div>
   );

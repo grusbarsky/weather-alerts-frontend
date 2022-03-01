@@ -56,7 +56,7 @@ function AlertList(props) {
                   ))}
                 </div>
             ) : (
-                <h4 className="text-center mt-5">No alerts for your locations!</h4>
+                <h4 className="text-center my-5">You have no alerts for your locations!</h4>
             )}
       </div>
   );
