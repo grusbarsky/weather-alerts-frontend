@@ -6,7 +6,7 @@ import { changeDateFormat } from "../helpers";
 // creates a location card with alert card children
 // if no alerts exist for a location, returns null
 
-function AlertCard(location, alerts, width) {
+function AlertCard({location, alerts, width}) {
 
     return (
 
