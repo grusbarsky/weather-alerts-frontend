@@ -6,7 +6,7 @@ import LoadingOverlay from 'react-loading-overlay';
 
 // Shows all alerts per location
 
-function AlertList(props) {
+function AlertList({width}) {
 
   const [alerts, setAlerts] = useState(null);
 
@@ -51,12 +51,12 @@ function AlertList(props) {
                       <AlertCard
                         location={a.location}
                         alerts={a.alerts}
-                        width={props.width}
+                        width={width}
                       />
                   ))}
                 </div>
             ) : (
-                <h4 className="text-center my-5">You have no alerts for your locations!</h4>
+              <h4 className="text-center mt-3 mb-5">Add location to show alerts!</h4>
             )}
       </div>
   );

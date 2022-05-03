@@ -34,7 +34,15 @@ function AlertCard(props) {
 
                         </div>
                     </div>
-                ) : (null)}
+                ) : (
+                    <div className={`AlertCard card mx-auto my-3 shadow-sm rounded border-light ${width}`}>
+                        <div className="card-body">
+                            <div>
+                                <h5 className='text-center'>{`No Alerts for ${location}`}</h5>
+                            </div>
+                        </div>
+                    </div>
+                )}
 
         </div>
 
